@@ -2,7 +2,7 @@ export default pbkdf2Hmac;
 /**
  * A TypedArray object describes an array-like view of an underlying binary data buffer.
  */
-export type TypedArray = Int8Array | Uint8Array | Uint8ClampedArray | Int16Array | Uint16Array | Int32Array | Uint32Array | Float32Array | Float64Array | BigInt64Array | BigUint64Array;
+export type TypedArray = Int8Array | Uint8Array | Uint8ClampedArray | Int16Array | Uint16Array | Int32Array | Uint32Array | Float32Array | Float64Array;
 /**
  * The PBKDF2-HMAC function used below denotes the PBKDF2 algorithm (RFC2898)
  * used with one of the SHA algorithms as the hash function for the HMAC
